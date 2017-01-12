@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //comentario cambiado
+    [_svFicha1 setContentSize:CGSizeMake(1, 3000)];
+    
 }
 
 

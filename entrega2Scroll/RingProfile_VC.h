@@ -15,4 +15,14 @@
 @property (strong, nonatomic) IBOutlet UIImageView *imgBlur;
 
 
+@property (strong, nonatomic) IBOutlet UIScrollView *svRings;
+
+@property (strong, nonatomic) IBOutlet UIScrollView *svFicha2;
+@property (strong, nonatomic) IBOutlet UIScrollView *svImages2;
+@property (strong, nonatomic) IBOutlet UIScrollView *svProduct2;
+@property (strong, nonatomic) IBOutlet UIImageView *imgBlur2;
+
+
+
+
 @end

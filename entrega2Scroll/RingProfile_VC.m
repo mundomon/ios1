@@ -17,18 +17,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [_svRings setContentSize:CGSizeMake(750,400)];
+    
     [_svFicha1 setContentSize:CGSizeMake(1, 3000)];
     [_svImages setContentSize:CGSizeMake(1302, 1)];
     [_svProduct setContentSize:CGSizeMake(1829, 1)];
     
+    [_svFicha2 setContentSize:CGSizeMake(1, 3000)];
+    [_svImages2 setContentSize:CGSizeMake(1302, 1)];
+    [_svProduct2 setContentSize:CGSizeMake(1829, 1)];
+    
+    
     _svFicha1.delegate =self;
+    _svFicha2.delegate =self;
     
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    CGFloat position=_svFicha1.contentOffset.y;
-    CGFloat pageHeight =_svFicha1.contentSize.height;
+    CGFloat position=scrollView.contentOffset.y;
+    CGFloat pageHeight =scrollView.contentSize.height;
     [_imgBlur setAlpha:(position/(pageHeight-_imgBlur.frame.size.height))];
+    [_imgBlur2 setAlpha:(position/(pageHeight-_imgBlur2.frame.size.height))];
 }
 
 

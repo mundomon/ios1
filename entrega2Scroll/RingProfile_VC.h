@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RingProfile_VC : UIViewController
+@interface RingProfile_VC : UIViewController <UIScrollViewDelegate>
 @property (strong, nonatomic) IBOutlet UIScrollView *svFicha1;
 @property (strong, nonatomic) IBOutlet UIScrollView *svImages;
 @property (strong, nonatomic) IBOutlet UIScrollView *svProduct;
+@property (strong, nonatomic) IBOutlet UIImageView *imgBlur;
 
 
 @end

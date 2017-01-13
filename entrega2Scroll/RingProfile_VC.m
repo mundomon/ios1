@@ -21,15 +21,20 @@
     [_svImages setContentSize:CGSizeMake(1302, 1)];
     [_svProduct setContentSize:CGSizeMake(1829, 1)];
     
+    _svFicha1.delegate =self;
+    
 }
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    CGFloat position=_svFicha1.contentOffset.y;
+    CGFloat pageHeight =_svFicha1.contentSize.height;
+    [_imgBlur setAlpha:(position/(pageHeight-_imgBlur.frame.size.height))];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-    
-    
-    
-    
 }
 
 /*

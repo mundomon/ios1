@@ -39,6 +39,7 @@
 		4F2B990E1E2509FF00469CA1 /* 1-presentation-slider-navigation-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F2B99081E2509FF00469CA1 /* 1-presentation-slider-navigation-background@2x.png */; };
 		4F2B990F1E2509FF00469CA1 /* 1-presentation-slider-navigation-button-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F2B99091E2509FF00469CA1 /* 1-presentation-slider-navigation-button-on@2x.png */; };
 		4F2B99101E2509FF00469CA1 /* 1-presentation-slider-navigation-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F2B990A1E2509FF00469CA1 /* 1-presentation-slider-navigation-button@2x.png */; };
+		4F30AF3F1E2845EF00962DCE /* RingProfile_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F30AF3E1E2845EF00962DCE /* RingProfile_VC.m */; };
 		4FC906221E1FBF6800ECCAFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC906211E1FBF6800ECCAFB /* main.m */; };
 		4FC906251E1FBF6800ECCAFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC906241E1FBF6800ECCAFB /* AppDelegate.m */; };
 		4FC906281E1FBF6800ECCAFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC906271E1FBF6800ECCAFB /* ViewController.m */; };
@@ -80,6 +81,8 @@
 		4F2B99081E2509FF00469CA1 /* 1-presentation-slider-navigation-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-presentation-slider-navigation-background@2x.png"; sourceTree = "<group>"; };
 		4F2B99091E2509FF00469CA1 /* 1-presentation-slider-navigation-button-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-presentation-slider-navigation-button-on@2x.png"; sourceTree = "<group>"; };
 		4F2B990A1E2509FF00469CA1 /* 1-presentation-slider-navigation-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-presentation-slider-navigation-button@2x.png"; sourceTree = "<group>"; };
+		4F30AF3D1E2845EF00962DCE /* RingProfile_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingProfile_VC.h; sourceTree = "<group>"; };
+		4F30AF3E1E2845EF00962DCE /* RingProfile_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingProfile_VC.m; sourceTree = "<group>"; };
 		4FC9061D1E1FBF6800ECCAFB /* entrega2Scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = entrega2Scroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC906211E1FBF6800ECCAFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4FC906231E1FBF6800ECCAFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -215,6 +218,8 @@
 				4FC906241E1FBF6800ECCAFB /* AppDelegate.m */,
 				4FC906261E1FBF6800ECCAFB /* ViewController.h */,
 				4FC906271E1FBF6800ECCAFB /* ViewController.m */,
+				4F30AF3D1E2845EF00962DCE /* RingProfile_VC.h */,
+				4F30AF3E1E2845EF00962DCE /* RingProfile_VC.m */,
 				4FC906291E1FBF6800ECCAFB /* Main.storyboard */,
 				4FC9062C1E1FBF6800ECCAFB /* Assets.xcassets */,
 				4FC9062E1E1FBF6800ECCAFB /* LaunchScreen.storyboard */,
@@ -335,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F30AF3F1E2845EF00962DCE /* RingProfile_VC.m in Sources */,
 				4FC906281E1FBF6800ECCAFB /* ViewController.m in Sources */,
 				4FC906251E1FBF6800ECCAFB /* AppDelegate.m in Sources */,
 				4FC906221E1FBF6800ECCAFB /* main.m in Sources */,

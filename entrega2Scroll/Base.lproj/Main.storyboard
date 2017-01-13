@@ -9,25 +9,25 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Ring ProfileVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RingProfile_VC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" misplaced="YES" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="3000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="HAPPI00.jpg" id="Kz6-eE-hJ5">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="HAPPI19.jpg" id="tVR-F0-2Bv">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" id="IAY-JQ-dvM">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="202"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" misplaced="YES" id="IAY-JQ-dvM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xgU-ql-Xp4">
                                         <rect key="frame" x="8" y="8" width="24" height="24"/>
@@ -35,8 +35,8 @@
                                         <state key="normal" backgroundImage="MENU.png"/>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HAPPI_TITLE_BIG.png" id="2za-JH-rmL">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="202"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                             </view>
@@ -45,23 +45,74 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="HAPPINESS.png" id="kJh-x6-eIy">
-                                        <rect key="frame" x="4" y="359" width="375" height="232"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <rect key="frame" x="0.0" y="359" width="375" height="232"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="mNK-ix-kBh">
-                                        <rect key="frame" x="8" y="1736" width="961" height="240"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="IHW-VI-mj2">
-                                                <rect key="frame" x="455" y="104" width="51" height="31"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </switch>
-                                        </subviews>
-                                    </scrollView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="HAPPI_INFO_AN.png" id="y3x-Q0-VyJ">
-                                        <rect key="frame" x="12" y="637" width="367" height="2339"/>
+                                        <rect key="frame" x="8" y="583" width="367" height="2339"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <view contentMode="scaleToFill" misplaced="YES" id="GMQ-af-dzb">
+                                        <rect key="frame" x="8" y="1647" width="359" height="273"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <subviews>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="mNK-ix-kBh">
+                                                <rect key="frame" x="8" y="8" width="351" height="273"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="HAPPI_TIRA_IMATGES.png" id="it6-ZZ-dPQ">
+                                                        <rect key="frame" x="8" y="16" width="1302" height="257"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                            </scrollView>
+                                        </subviews>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="HAPPI_MAP.jpg" id="r5Q-E6-GEp">
+                                        <rect key="frame" x="21" y="1994" width="336" height="230"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="knG-oA-Ccu">
+                                        <rect key="frame" x="21" y="2319" width="336" height="260"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="HAPPI_PRODUCT.png" id="uOy-wZ-gjt">
+                                                <rect key="frame" x="8" y="8" width="1829" height="252"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                    </scrollView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yEF-Bc-UOn">
+                                        <rect key="frame" x="8" y="2736" width="359" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Add to Cart" backgroundImage="SHOP_BUTTON.png">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5ZD-dA-m4z">
+                                        <rect key="frame" x="28" y="2853" width="62" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="LIKE.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rMq-KX-fsR">
+                                        <rect key="frame" x="113" y="2828" width="52" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="FACEBOOK.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hYQ-Dd-8TR">
+                                        <rect key="frame" x="296" y="2833" width="51" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="TWITTER.png"/>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="www.architexture-online.com" textAlignment="natural" minimumFontSize="17" id="9AZ-nm-70S">
+                                        <rect key="frame" x="94" y="2786" width="243" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -71,6 +122,8 @@
                     <size key="freeformSize" width="375" height="3000"/>
                     <connections>
                         <outlet property="svFicha1" destination="bme-Wi-tMx" id="Gw2-aH-XSw"/>
+                        <outlet property="svImages" destination="mNK-ix-kBh" id="Q8M-Rs-Rrs"/>
+                        <outlet property="svProduct" destination="knG-oA-Ccu" id="3dE-po-q5I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -79,12 +132,19 @@
         </scene>
     </scenes>
     <resources>
+        <image name="FACEBOOK.png" width="52" height="52"/>
         <image name="HAPPI00.jpg" width="196" height="301"/>
         <image name="HAPPI19.jpg" width="196" height="301"/>
         <image name="HAPPINESS.png" width="320" height="99"/>
         <image name="HAPPI_INFO_AN.png" width="320" height="2094"/>
+        <image name="HAPPI_MAP.jpg" width="287" height="205"/>
+        <image name="HAPPI_PRODUCT.png" width="669" height="140"/>
+        <image name="HAPPI_TIRA_IMATGES.png" width="867" height="140"/>
         <image name="HAPPI_TITLE_BIG.png" width="320" height="45"/>
+        <image name="LIKE.png" width="62" height="30"/>
         <image name="MENU.png" width="16" height="13"/>
+        <image name="SHOP_BUTTON.png" width="305" height="43"/>
+        <image name="TWITTER.png" width="51" height="42"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

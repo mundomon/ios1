@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIScrollView *svFicha1;
+//@property (strong, nonatomic) IBOutlet UIScrollView *svFicha1;
 
 @end
 
